@@ -1,0 +1,8 @@
+{
+  "runtimeOptions": {
+    "additionalProbingPaths": [
+      "C:\\Users\\dorina.balaur\\.dotnet\\store\\|arch|\\|tfm|",
+      "C:\\Users\\dorina.balaur\\.nuget\\packages"
+    ]
+  }
+}
