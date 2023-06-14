@@ -1,4 +1,4 @@
-﻿using System;
+﻿/*using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -19,7 +19,7 @@ namespace TestingFramework.Steps
         LogInPage logInPage;
         EmailPage emailPage;
         PasswordPage pwdPage;
-        public TaskPageSteps(DriverHelper driverHelper) 
+        public TaskPageSteps(DriverHelper driverHelper)
         {
             _driverHelper = driverHelper;
             taskPage = new TasksPage(_driverHelper.Driver, _driverHelper.wait);
@@ -66,7 +66,7 @@ namespace TestingFramework.Steps
         {
             taskPage.SaveTask();
         }
- 
+
         [Then(@"a success message is displayed ""(.*)""")]
         public void ThenASuccessMessageIsDisplayed(string succesMessage)
         {
@@ -93,7 +93,7 @@ namespace TestingFramework.Steps
             taskPage.AssertFilterEmployeeName(empName);
         }
         //EDIT
-/*        [Given(@"a logged in User ""(.*)"" is on Tasks Page")]
+        [Given(@"a logged in User ""(.*)"" is on Tasks Page")]
         public void GivenALoggedInUserIsOnTasksPage(string empName)
         {
             logInPage.ClickLoginInBtn();
@@ -106,14 +106,14 @@ namespace TestingFramework.Steps
             WhenUserClicksOnFilterIcon();
             WhenInputsTheName(empName);
             ThenIsDisplayedOnlyTheTasksForTheUser(empName);
-        }*/
+        }
 
         [When(@"user clicks on Edit icon")]
         public void WhenUserClicksOnEditIcon()
         {
             taskPage.OpenFilters();
             taskPage.FilterByName("Dorina Balaur");
-            taskPage.PressEditBtn();           
+            taskPage.PressEditBtn();
         }
 
         [When(@"changes the form data")]
@@ -152,3 +152,4 @@ namespace TestingFramework.Steps
         }
     }
 }
+*/

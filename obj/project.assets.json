@@ -105,7 +105,7 @@
           "lib/netstandard2.0/ExtentReports.dll": {}
         }
       },
-      "Gherkin/19.0.3": {
+      "Gherkin/26.0.3": {
         "type": "package",
         "compile": {
           "lib/netstandard2.0/Gherkin.dll": {}
@@ -3563,18 +3563,20 @@
         "lib/netstandard2.0/ExtentReports.dll"
       ]
     },
-    "Gherkin/19.0.3": {
-      "sha512": "kq9feqMojMj9aABrHb/ABEPaH2Y4dSclseSahAru6qxCeqVQNLLTgw/6vZMauzI1yBUL2fz03ub5yEd5btLfvg==",
+    "Gherkin/26.0.3": {
+      "sha512": "MxHVTyfRMYUOPCvyLwpmlmcU8NZM+mjS0f3HFJTbUvDztO/ey+m1r8wrRsfRIdY4RRaFrgfMhps5aYyVT5jXog==",
       "type": "package",
-      "path": "gherkin/19.0.3",
+      "path": "gherkin/26.0.3",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
         "cucumber-mark-green-128.png",
-        "gherkin.19.0.3.nupkg.sha512",
+        "gherkin.26.0.3.nupkg.sha512",
         "gherkin.nuspec",
-        "lib/net45/Gherkin.dll",
-        "lib/net45/Gherkin.xml",
+        "lib/net462/Gherkin.dll",
+        "lib/net462/Gherkin.xml",
+        "lib/net6.0/Gherkin.dll",
+        "lib/net6.0/Gherkin.xml",
         "lib/netstandard2.0/Gherkin.dll",
         "lib/netstandard2.0/Gherkin.xml"
       ]
@@ -10389,6 +10391,7 @@
       "DotNetSeleniumExtras.WaitHelpers >= 3.11.0",
       "ExtentReports >= 4.1.0",
       "ExtentReports.Core >= 1.0.3",
+      "Gherkin >= 26.0.3",
       "Microsoft.NET.Test.Sdk >= 17.5.0",
       "NUnit >= 3.13.3",
       "NUnit3TestAdapter >= 4.4.2",
@@ -10410,11 +10413,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\dorina.balaur\\Desktop\\tests\\DAAproject\\TrackerAutomationTests\\TestingFramework.csproj",
+      "projectUniqueName": "C:\\Users\\dorina.balaur\\Desktop\\tests\\DAA_Tracker\\TrackerAutomationTests\\TestingFramework.csproj",
       "projectName": "TestingFramework",
-      "projectPath": "C:\\Users\\dorina.balaur\\Desktop\\tests\\DAAproject\\TrackerAutomationTests\\TestingFramework.csproj",
+      "projectPath": "C:\\Users\\dorina.balaur\\Desktop\\tests\\DAA_Tracker\\TrackerAutomationTests\\TestingFramework.csproj",
       "packagesPath": "C:\\Users\\dorina.balaur\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\dorina.balaur\\Desktop\\tests\\DAAproject\\TrackerAutomationTests\\obj\\",
+      "outputPath": "C:\\Users\\dorina.balaur\\Desktop\\tests\\DAA_Tracker\\TrackerAutomationTests\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\dorina.balaur\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -10454,6 +10457,10 @@
           "ExtentReports.Core": {
             "target": "Package",
             "version": "[1.0.3, )"
+          },
+          "Gherkin": {
+            "target": "Package",
+            "version": "[26.0.3, )"
           },
           "Microsoft.NET.Test.Sdk": {
             "target": "Package",

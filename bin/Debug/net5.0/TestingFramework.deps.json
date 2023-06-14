@@ -11,6 +11,7 @@
           "DotNetSeleniumExtras.WaitHelpers": "3.11.0",
           "ExtentReports": "4.1.0",
           "ExtentReports.Core": "1.0.3",
+          "Gherkin": "26.0.3",
           "Microsoft.NET.Test.Sdk": "17.5.0",
           "NUnit": "3.13.3",
           "NUnit3TestAdapter": "4.4.2",
@@ -111,11 +112,11 @@
           "System.Configuration.ConfigurationManager": "4.5.0"
         }
       },
-      "Gherkin/19.0.3": {
+      "Gherkin/26.0.3": {
         "runtime": {
           "lib/netstandard2.0/Gherkin.dll": {
-            "assemblyVersion": "19.0.3.0",
-            "fileVersion": "19.0.3.0"
+            "assemblyVersion": "26.0.3.0",
+            "fileVersion": "26.0.3.0"
           }
         }
       },
@@ -1411,7 +1412,7 @@
       "SpecFlow/3.9.74": {
         "dependencies": {
           "BoDi": "1.5.0",
-          "Gherkin": "19.0.3",
+          "Gherkin": "26.0.3",
           "Microsoft.Extensions.DependencyModel": "1.0.3",
           "SpecFlow.Internal.Json": "1.0.8",
           "System.Configuration.ConfigurationManager": "4.5.0",
@@ -2462,12 +2463,12 @@
       "path": "extentreports.core/1.0.3",
       "hashPath": "extentreports.core.1.0.3.nupkg.sha512"
     },
-    "Gherkin/19.0.3": {
+    "Gherkin/26.0.3": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-kq9feqMojMj9aABrHb/ABEPaH2Y4dSclseSahAru6qxCeqVQNLLTgw/6vZMauzI1yBUL2fz03ub5yEd5btLfvg==",
-      "path": "gherkin/19.0.3",
-      "hashPath": "gherkin.19.0.3.nupkg.sha512"
+      "sha512": "sha512-MxHVTyfRMYUOPCvyLwpmlmcU8NZM+mjS0f3HFJTbUvDztO/ey+m1r8wrRsfRIdY4RRaFrgfMhps5aYyVT5jXog==",
+      "path": "gherkin/26.0.3",
+      "hashPath": "gherkin.26.0.3.nupkg.sha512"
     },
     "Microsoft.AspNetCore/2.2.0": {
       "type": "package",

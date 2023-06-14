@@ -35,7 +35,7 @@ namespace TestingFramework.Hooks
         [BeforeTestRun]
         public static void InitializeReport()
         {
-            var htmlReport = new ExtentHtmlReporter(@"C:\Users\dorina.balaur\Desktop\TrackerAutomationTests\ExtentREport.html");
+            var htmlReport = new ExtentHtmlReporter(@"C:\Users\dorina.balaur\Desktop\tests\DAA_Tracker\TrackerAutomationTests\ExtentREport.html");
             extentReport = new ExtentReports();
             extentReport.AttachReporter(htmlReport);
         }

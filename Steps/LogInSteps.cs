@@ -21,15 +21,13 @@ namespace TestingFramework.Steps
     {   
         private DriverHelper _driverHelper;
         LogInPage logInPage;
-        EmailPage emailPage;
-        PasswordPage pwdPage;
+
         HomePage homePage;
         public LogInSteps(DriverHelper driverHelper)
         {
             _driverHelper = driverHelper;
             logInPage = new LogInPage(_driverHelper.Driver, _driverHelper.wait);
-            emailPage = new EmailPage(_driverHelper.Driver, _driverHelper.wait);
-            pwdPage = new PasswordPage(_driverHelper.Driver, _driverHelper.wait);
+
             homePage = new HomePage(_driverHelper.Driver, _driverHelper.wait);
         }
 
@@ -43,33 +41,27 @@ namespace TestingFramework.Steps
         public void GivenIClickLoginButton()
         {
            logInPage.ClickLoginInBtn();
+           logInPage.ClickLoginInBtn();
         }
 
         [When(@"Input the credentials")]
         public void WhenInputTheCredentials(Table table)
         {
             dynamic data = table.CreateDynamicInstance();
-            emailPage.WriteEmail(data.email);
-            emailPage.PressNextBtn();
-            pwdPage.WritePassword(data.password);            
+            logInPage.WriteEmail(data.email);
+            logInPage.WritePassword(data.password);          
         }
 
-        [When(@"I click Next button")]
-        public void WhenIClickNextButton()
+        [When(@"I click LogIn button")]
+        public void WhenIClickLogInButton()
         {
-            emailPage.PressNextBtn();
-        }
-
-        [When(@"I agree on the next page")]
-        public void WhenIAgreeOnTheNextPage()
-        {
-            pwdPage.ConfirmPassword();
+            logInPage.ClickLoginInBtnForm();
         }
 
         [Then(@"I should see the Home Page")]
         public void ThenIShouldSeeTheHomePage()
         {
-            homePage.CheckPageTitle("advance - Amdaris");
+            homePage.CheckPageTitle("FinanceTracker");
         }
 
     }

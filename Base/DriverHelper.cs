@@ -16,7 +16,7 @@ namespace TestingFramework
     {
         public IWebDriver Driver { get; set; }
         public WebDriverWait wait;
-        public string baseUrl = "https://projectplanappweb-stage.azurewebsites.net/login";
+        public string baseUrl = "https://2678-86-104-196-223.ngrok-free.app";
 
         public void GotoUrl()
         {

@@ -20,14 +20,20 @@ namespace TestingFramework.PageObjectModel
             _driver = driver;
             _wait = wait;
         }
-        private IWebElement _taskBtn => _driver.FindElement(By.Id("viewTasksButton"));
-        public void PressTaskBtn()
+        private IWebElement _accountsBtn => _driver.FindElement(By.XPath("//button[normalize-space()='Accounts']"));
+        private IWebElement _titlepage => _driver.FindElement(By.CssSelector("a[class='active'] h4"));
+        public void PressAccountBtn()
         {
-            _wait.Until(ExpectedConditions.ElementToBeClickable(_taskBtn)).Click();
+            _wait.Until(ExpectedConditions.ElementToBeClickable(_accountsBtn)).Click();
         }
         public void CheckPageTitle(string title)
         {
-            Assert.AreEqual(title, _driver.Title);
+            var titleDisplayed = _wait.Until(ExpectedConditions.ElementIsVisible(By.CssSelector("a[class='active'] h4")));
+            Assert.IsTrue(titleDisplayed.Displayed);
+
+            string titleText = _titlepage.Text;
+            Assert.IsTrue(titleText.Contains(title), "Title {0} doesnt contain the right text", titleText);
+
         }
     }
 }

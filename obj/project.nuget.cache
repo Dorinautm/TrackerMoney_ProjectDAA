@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "zcmbEAw8zJW+rH3295KaF2/CNHJb9ME9p1t46Ndrno4M4HqORg5tA6im8xBtdG+5QACOEdaPXgRDF32zIlSI0w==",
+  "dgSpecHash": "ztiZH/uW5im1QTlkdJy+/tXoNgm9OYPnD+d5Dx2pX2yXnTCOHb9Rfsh/d8iBHnhuku9t7cpKK2U/siKznIbiLg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\dorina.balaur\\Desktop\\tests\\DAAproject\\TrackerAutomationTests\\TestingFramework.csproj",
+  "projectFilePath": "C:\\Users\\dorina.balaur\\Desktop\\tests\\DAA_Tracker\\TrackerAutomationTests\\TestingFramework.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\dorina.balaur\\.nuget\\packages\\anglesharp\\0.17.1\\anglesharp.0.17.1.nupkg.sha512",
     "C:\\Users\\dorina.balaur\\.nuget\\packages\\bodi\\1.5.0\\bodi.1.5.0.nupkg.sha512",
@@ -12,7 +12,7 @@
     "C:\\Users\\dorina.balaur\\.nuget\\packages\\dynamitey\\2.0.9.136\\dynamitey.2.0.9.136.nupkg.sha512",
     "C:\\Users\\dorina.balaur\\.nuget\\packages\\extentreports\\4.1.0\\extentreports.4.1.0.nupkg.sha512",
     "C:\\Users\\dorina.balaur\\.nuget\\packages\\extentreports.core\\1.0.3\\extentreports.core.1.0.3.nupkg.sha512",
-    "C:\\Users\\dorina.balaur\\.nuget\\packages\\gherkin\\19.0.3\\gherkin.19.0.3.nupkg.sha512",
+    "C:\\Users\\dorina.balaur\\.nuget\\packages\\gherkin\\26.0.3\\gherkin.26.0.3.nupkg.sha512",
     "C:\\Users\\dorina.balaur\\.nuget\\packages\\microsoft.aspnetcore\\2.2.0\\microsoft.aspnetcore.2.2.0.nupkg.sha512",
     "C:\\Users\\dorina.balaur\\.nuget\\packages\\microsoft.aspnetcore.authentication.abstractions\\2.2.0\\microsoft.aspnetcore.authentication.abstractions.2.2.0.nupkg.sha512",
     "C:\\Users\\dorina.balaur\\.nuget\\packages\\microsoft.aspnetcore.authentication.core\\2.2.0\\microsoft.aspnetcore.authentication.core.2.2.0.nupkg.sha512",
